@@ -8,4 +8,8 @@ Estudos e POCS sobre Java.
 - Hibernate JPA
 - Design Patterns
 - OOP
-- Practical Excercises
+- Practical Exercises
+
+----
+
+Thank you! :rocket:
