@@ -1,3 +1,7 @@
+
+import java.util.Locale;
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -41,6 +45,23 @@ public class Main {
         
         System.out.println("Valor absoluto de " + y + " = " + A);
         System.out.println("Valor absoluto de " + z + " = " + B);
+        
+        // Ex Resolvido
+        
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+        
+        double largura = sc.nextDouble();
+        double comprimento = sc.nextDouble();
+        double metroQuadrado = sc.nextDouble();
+        
+        double area = largura * comprimento;
+        double preco = area * metroQuadrado;
+
+        System.out.printf("AREA = %.2f%n", area);
+        System.out.printf("PRECO = %.2f%n", preco);
+        
+        sc.close();
     }
     
 }
