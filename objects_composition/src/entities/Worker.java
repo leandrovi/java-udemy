@@ -90,6 +90,8 @@ public class Worker {
                 sum += contract.totalValue();
             }
         }
+        
+        return sum;
     }
     
 }
