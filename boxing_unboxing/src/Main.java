@@ -25,8 +25,7 @@ public class Main {
         
         System.out.println(y);
         
-        // Wrapper classes
-        
+        // Wrapper classes        
         int a = 300;
         
         Integer obj2 = a;
